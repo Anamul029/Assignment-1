@@ -220,12 +220,68 @@
     text-align: center;
     font-size: 72px;
     font-weight: 900;
-   
+
 }
-.holiday{
-    background-image: url('/image/Rectangle\ 1.png'),url(/image/Rectangle\ 2.png);
+
+.holiday {
+    background-image: url('/image/Rectangle\ 1.png'), url(/image/Rectangle\ 2.png);
     background-repeat: no-repeat;
-    background-position: right top,right bottom;
-    margin:50px;
-    
+    background-position: right top, right bottom;
+    margin: 50px;
+
+}
+
+.main-5 {
+    border: 3px solid red;
+    margin: 50px;
+}
+
+.main5-tittle {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.main5-section {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+
+}
+
+.mother-div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.mother-div img:hover{
+    border: 3px solid blue;
+}
+
+.main5-1 img {
+    display: block;
+    margin-bottom: 20px;
+    width: 424px;
+    height: 450px;
+    flex-shrink: 0;
+
+}
+
+.main5-2 img {
+    display: block;
+    margin-bottom: 20px;
+    width: 424px;
+    height: 450px;
+    flex-shrink: 0;
+}
+
+.main5-3 img {
+    display: block;
+    margin-bottom: 20px;
+    width: 424px;
+    height: 450px;
+    flex-shrink: 0;
+
 }
