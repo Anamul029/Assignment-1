@@ -5,21 +5,50 @@
 .header {
     background-image: url('/image/Banner\ Image.png');
     background-repeat: no-repeat;
-    margin:50px 100px;
+    margin: 50px 100px;
     width: 1320px;
     height: 600px;
     border-radius: 16px;
 
 }
-.head-tittle{
+
+.head-tittle {
     text-align: center;
-    color:white
+    color: white;
+    position: relative;
+    top: 180px;
+    font-size: larger;
+
 }
- .head-content{
+
+.head-content {
     color: #FFF;
     text-align: center;
-    font-family: Merriweather;
     font-size: 72px;
     font-weight: 900;
-    line-height: 95px; /* 131.944% */
- }
+    line-height: 95px;
+    margin-top: 200px;
+}
+
+/* lower part of Header*/
+.header-bottom-tittle {
+    color: #F00;
+    text-align: center;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.header-bottom-midle {
+    color: #F00;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.heder-bottom-bottom {
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+   
+}
