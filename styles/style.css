@@ -5,7 +5,7 @@
 .header {
     background-image: linear-gradient(to bottom,rgba(0,0,0,0.5),rgba(0,0,0,0)),url('../image/Banner.png');
     background-repeat: no-repeat;
-     margin: auto;
+    margin: auto;
     width: 1320px;
     height: 600px;
     border-radius: 16px;
@@ -70,6 +70,7 @@
     display: flex;
     justify-content: space-between;
     margin-top: 80px;
+    border-radius: 10px;
 }
 
 .main1-tittle {
@@ -123,6 +124,7 @@
     margin: auto;
     margin-top: 80px;
     background-color: #f0dbe0;
+    border-radius: 10px;
 }
 
 .main-2 span {
@@ -300,8 +302,10 @@
 /*style footer part*/
 
 .footer-1 {
-    margin: 80px 60px 50px 50px;
+  /*  margin: 80px 60px 50px 50px;*/
+    margin: 60px;
     background-color: bisque;
+    border-radius: 15px;
 }
 
 .foot-1 {
@@ -367,7 +371,7 @@
 
 .footer-2 {
     background: #070211;
-    margin: 50px;
+    margin: 60px;
     height: 600px;
 }
 
