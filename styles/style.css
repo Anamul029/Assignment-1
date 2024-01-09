@@ -278,7 +278,7 @@
     margin-bottom: 20px;
     width: 424px;
     height: 450px;
-    flex-shrink: 0;
+    
 
 }
 
@@ -287,7 +287,7 @@
     margin-bottom: 20px;
     width: 424px;
     height: 450px;
-    flex-shrink: 0;
+  
 }
 
 .main5-3 img {
@@ -295,7 +295,7 @@
     margin-bottom: 20px;
     width: 424px;
     height: 450px;
-    flex-shrink: 0;
+  
 
 }
 
@@ -372,9 +372,6 @@
     margin: 50px;
     height: 600px;
 }
-.mother-div{
-
-}
 
 .cont-2{
     position: relative;
@@ -386,6 +383,8 @@
     font-size: 24px;
     font-weight: 500;
     line-height: 40px;
+    position: relative;
+    bottom: 5px;
 }
 
 .paragraph {
