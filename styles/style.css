@@ -216,6 +216,7 @@
     font-size: 20px;
     font-weight: 500;
     line-height: 32px;
+    margin: 0 200px 0 200px;
 
 }
 
@@ -225,6 +226,11 @@
     font-size: 72px;
     font-weight: 900;
 
+}
+.main-4 h1{
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
 }
 
 .holiday {
@@ -264,6 +270,7 @@
 
 .mother-div img:hover {
     border: 3px solid blue;
+    border-radius: 20px;
 }
 
 .main5-1 img {
@@ -301,7 +308,7 @@
 
 .foot-1 {
 
-    padding: 150px 620px 392px 640px;
+    padding: 150px 620px 392px 620px;
     width: 150px;
     height: 150px;
 
@@ -362,10 +369,16 @@
 
 .footer-2 {
     background: #070211;
-    border: 3px solid red;
-    margin: 100px;
-    width: 1600px;
-    height: 609px;
+    margin: 50px;
+    height: 600px;
+}
+.mother-div{
+
+}
+
+.cont-2{
+    position: relative;
+    top: 20px;
 }
 
 .spann {
@@ -385,9 +398,11 @@
 
 .middle {
     padding-left: 550px;
+    height: 120px;
+    position: relative;
+    top: 30px;
 }
 
-.middle image {}
 
 hr {
     color: white;
@@ -395,14 +410,18 @@ hr {
 
 .mother2 {
     display: flex;
-    justify-content: space-between;
+    gap:900px
 }
 
 .subscription {
     color: white;
-    margin-left: 100px;
+    text-decoration: none;
+    position: relative;
+    top:100px
 }
 
 .paragraph-2 {
     color: white;
+    margin-top: 100px;
+    margin-left: 100px;
 }
