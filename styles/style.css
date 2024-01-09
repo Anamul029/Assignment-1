@@ -5,7 +5,7 @@
 .header {
     background-image: linear-gradient(to bottom,rgba(0,0,0,0.5),rgba(0,0,0,0)),url('../image/Banner.png');
     background-repeat: no-repeat;
-    margin: 50px 100px;
+     margin: auto;
     width: 1320px;
     height: 600px;
     border-radius: 16px;
@@ -64,9 +64,9 @@
 .main-1 {
     background-image: linear-gradient(to bottom,rgba(0,0,0,0.5),rgba(0,0,0,0)),url('../image/Vectorrr.png');
     background-repeat: no-repeat;
+    margin: auto;
     width: 1320px;
     height: 600px;
-    margin: auto;
     display: flex;
     justify-content: space-between;
     margin-top: 80px;
@@ -236,7 +236,7 @@
     background-image: url('../image/shoping-bag.png'), url('../image/orange-background.png');
     background-repeat: no-repeat;
     background-position: right top, right bottom;
-    margin: 50px;
+    margin: 50px 60px;
 
 }
 
