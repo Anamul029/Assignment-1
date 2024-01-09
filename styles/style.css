@@ -3,7 +3,7 @@
 }
 
 .header {
-    background-image: linear-gradient(to bottom,rgba(0,0,0,0.5),rgba(0,0,0,0)),url('/image/Banner\ Image.png');
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0.5),rgba(0,0,0,0)),url('/image/Banner.png');
     background-repeat: no-repeat;
     margin: 50px 100px;
     width: 1320px;
@@ -150,6 +150,8 @@
     color: #F00;
     font-size: 24px;
     font-weight: 500;
+    position: relative;
+    top: 80px;
 }
 
 .main-3-content {
@@ -167,13 +169,15 @@
 }
 
 .main3-div2 {
-    margin-top: 50px;
-    margin-right: 100px;
+    margin-top: 5px;
+    margin-right: 70px;
+   
 }
 
 .main3-div2 img {
-    border: 10px solid orangered;
+    border: 20px solid orangered;
     border-radius: 300px;
+    padding: 20px;
 }
 
 .div3-tittle {
@@ -224,7 +228,8 @@
 }
 
 .holiday {
-    background-image: url('/image/Rectangle\ 1.png'), url(/image/Rectangle\ 2.png);
+    display: flex;
+    background-image: url('/image/shoping-bag.png'), url('/image/orange-background.png');
     background-repeat: no-repeat;
     background-position: right top, right bottom;
     margin: 50px;
